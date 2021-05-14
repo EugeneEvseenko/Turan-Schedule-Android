@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@android:drawable/divider_horizontal_textfield" />
+
+    <LinearLayout
+        android:id="@+id/lesson"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="7dp"
+        android:showDividers="end"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/lessonTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:ellipsize="middle"
+            android:fontFamily="sans-serif-thin"
+            android:singleLine="false"
+            android:text="Название пары"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/lessonSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:paddingTop="5dp"
+            android:text="Информация о паре"
+            android:textSize="18sp"
+            android:typeface="normal"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

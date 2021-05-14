@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:title="@string/action_schedule" />
+        <item
+            android:id="@+id/nav_calls"
+            android:title="@string/action_calls" />
+        <item
+            android:id="@+id/nav_web"
+            android:checkable="false"
+            android:title="@string/web_version" />
+        <item
+            android:id="@+id/nav_about"
+            android:checkable="false"
+            android:title="@string/about" />
+    </group>
+
+    <item android:title="@string/info_profile">
+        <menu>
+            <item
+                android:id="@+id/nav_options"
+                android:title="@string/action_options"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/action_logout" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/curator_item"
+        android:title="@string/nav_title_teacher">
+        <menu>
+            <item
+                android:id="@+id/nav_tphone"
+                android:title="@string/nav_call_mask" />
+            <item
+                android:id="@+id/nav_temail"
+                android:title="@string/nav_message_mask" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/headman_item"
+        android:title="@string/nav_title_headman">
+        <menu>
+            <item
+                android:id="@+id/nav_hphone"
+                android:title="@string/nav_call_mask" />
+            <item
+                android:id="@+id/nav_hemail"
+                android:title="@string/nav_message_mask" />
+        </menu>
+    </item>
+</menu>

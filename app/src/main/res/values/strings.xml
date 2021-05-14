@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name" translatable="false">Turan Schedule</string>
+    <string name="btn_login">Login</string>
+    <string name="hint_login">Enter your login</string>
+    <string name="hint_pass">Enter your password</string>
+    <string name="check_connection">Check connection</string>
+    <string name="auth_error">Restart app or check updates</string>
+    <string name="success_auth">Auth has been success</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_schedule">Schedule</string>
+
+    <string name="info_updating">Updating...</string>
+    <string name="action_calls">Call Schedule</string>
+    <string name="action_options">Options</string>
+    <string name="action_logout">Logout</string>
+    <string name="info_profile">Profile</string>
+    <string name="info_stop_session">The session has been terminated, please log in again.</string>
+    <string name="info_exit">Press once again to exit!</string>
+    <string name="nav_title_teacher">Curator</string>
+    <string name="nav_call_mask">Call %s</string>
+    <string name="nav_message_mask">Write %s</string>
+    <string name="nav_title_headman">Moderator</string>
+    <string name="select_email">Select email client</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="end_of_lessons">End of lessons.</string>
+    <string name="break_mask">Break for %d minutes.</string>
+    <string name="call_dialog">Call the teacher</string>
+    <string name="write_dialog">Write teacher</string>
+    <string name="dialog_close">Close</string>
+    <string name="schedule_not_exist">There is no schedule, it may be coming soon.</string>
+    <string name="lesson_mask">From %s am to %s am the couple is led by %s in the %dth auditorium.</string>
+    <string name="call_title">%d pair</string>
+    <string name="call_short_desc">From %s to %s.</string>
+    <string name="call_long_desc">From %s to %s. Break %d minutes.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="personal_data_header">Personal data</string>
+    <string name="privacy_header">Privacy</string>
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="settings_phone_title">Hide my phone number</string>
+    <string name="settings_phone_subtitle">Your classmates won\'t see your phone number.</string>
+    <string name="settings_email_title">Hide my email</string>
+    <string name="settings_email_subtitle">Your classmates won\'t see your email address.</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="about">About</string>
+    <string name="web_version">Web version</string>
+    <string name="about_desc">The application is developed as a diploma project of Alexander Sukhoplyasov, it interacts with the web service turan.evseenko.kz by the API.</string>
+</resources>
