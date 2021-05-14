@@ -35,7 +35,7 @@
     <string name="call_dialog">Call the teacher</string>
     <string name="write_dialog">Write teacher</string>
     <string name="dialog_close">Close</string>
-    <string name="schedule_not_exist">There is no schedule, it may be coming soon.</string>
+    <string name="schedule_not_exist">There is no active schedule.</string>
     <string name="lesson_mask">From %s am to %s am the couple is led by %s in the %dth auditorium.</string>
     <string name="call_title">%d pair</string>
     <string name="call_short_desc">From %s to %s.</string>

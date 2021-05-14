@@ -34,7 +34,7 @@
     <string name="call_dialog">Мұғалімге қоңырау шалыңыз</string>
     <string name="write_dialog">Мұғалімге жазыңыз</string>
     <string name="dialog_close">Жабу</string>
-    <string name="schedule_not_exist">Кесте жоқ, мүмкін ол жақында пайда болады.</string>
+    <string name="schedule_not_exist">Белсенді кесте жоқ.</string>
     <string name="lesson_mask">%s-дан %s-ға дейін %s жұпты %d аудиторияда жүргізеді.</string>
     <string name="call_title">%d жұп</string>
     <string name="call_long_desc">%s - %s. %d минут үзіліс.</string>

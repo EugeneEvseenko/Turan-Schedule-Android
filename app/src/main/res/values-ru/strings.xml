@@ -34,7 +34,7 @@
     <string name="call_dialog">Позвонить преподавателю</string>
     <string name="write_dialog">Написать преподавателю</string>
     <string name="dialog_close">Закрыть</string>
-    <string name="schedule_not_exist">Расписание отсутствует, возможно оно скоро появится.</string>
+    <string name="schedule_not_exist">Активного расписания нет.</string>
     <string name="lesson_mask">С %s до %s пару ведёт %s в %d аудитории.</string>
     <string name="call_title">%d пара</string>
     <string name="call_long_desc">С %s до %s. Перемена %d минут.</string>
